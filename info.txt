@@ -1,0 +1,5 @@
+Uniswap V2 contract
+https://etherscan.io/address/0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f#code
+
+Uniswap V2 trading pair contract (one example)
+https://etherscan.io/address/0x3139Ffc91B99aa94DA8A2dc13f1fC36F9BDc98eE#readContract

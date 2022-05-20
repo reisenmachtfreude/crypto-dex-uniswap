@@ -1,0 +1,14 @@
+# 1. install geth https://geth.ethereum.org/docs/install-and-build/installing-geth
+# For debian 11
+echo "deb http://ppa.launchpad.net/ethereum/ethereum/ubuntu bionic main 
+deb-src http://ppa.launchpad.net/ethereum/ethereum/ubuntu bionic main" > /etc/apt/sources.list.d/ethereum-bioinc.list
+
+apt-key adv --keyserver keyserver.ubuntu.com  --recv-keys 2A518C819BE37D2C2031944D1C52189C923F6CA9
+apt-get update
+apt-get install ethereum
+
+# 2. Start a light node (see also https://ethereum.org/en/developers/tutorials/run-light-node-geth/)
+geth --syncmode light
+
+# 3. install Python3 libaries
+pip3 install web3
